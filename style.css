@@ -51,8 +51,7 @@
 }
 
 .produtos-single a:hover{
-    background: rgb(28, 240, 159);
-    color: black;
+    opacity: 0.8;
 }
 
 h2{
@@ -88,6 +87,11 @@ p.stars{
     font-size: 15px;
     color: gold;
     cursor: pointer;
+}
+
+p.ctg{
+    color: gray;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
